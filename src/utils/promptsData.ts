@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 export type Prompt = {
   id: number;
   title: string;
@@ -10,20 +9,6 @@ export type Prompt = {
   category: string;
 };
 
-=======
-// src/utils/promptsData.ts
-
-export type Prompt = {
-  id: number;
-  title: string;
-  image: string;
-  description: string;
-  prompt: string;
-  link: string;
-  isFree: boolean;
-};
-
->>>>>>> 38c589af0af4fa65596ee58ee410ba61cfbcc580
 export const prompts: Prompt[] = [
   {
     id: 1,
@@ -33,10 +18,7 @@ export const prompts: Prompt[] = [
     prompt: "Create my portrait in Ghibli anime style, soft lighting, vibrant colors.",
     link: "https://ghibli-ai.com",
     isFree: true,
-<<<<<<< HEAD
     category: "Art",
-=======
->>>>>>> 38c589af0af4fa65596ee58ee410ba61cfbcc580
   },
   {
     id: 2,
@@ -46,10 +28,7 @@ export const prompts: Prompt[] = [
     prompt: "Make this selfie into a bright, funny cartoon avatar.",
     link: "https://cartoonify.ai",
     isFree: true,
-<<<<<<< HEAD
     category: "Art",
-=======
->>>>>>> 38c589af0af4fa65596ee58ee410ba61cfbcc580
   },
   {
     id: 3,
@@ -59,10 +38,7 @@ export const prompts: Prompt[] = [
     prompt: "Generate a clean, ATS-friendly resume for a software engineer.",
     link: "https://resumeai.com",
     isFree: false,
-<<<<<<< HEAD
     category: "Productivity",
-=======
->>>>>>> 38c589af0af4fa65596ee58ee410ba61cfbcc580
   },
   {
     id: 4,
@@ -72,10 +48,7 @@ export const prompts: Prompt[] = [
     prompt: "Design a fantasy kingdom landscape, castle on hill, magical sky.",
     link: "https://fantasyworld.ai",
     isFree: true,
-<<<<<<< HEAD
     category: "Art",
-=======
->>>>>>> 38c589af0af4fa65596ee58ee410ba61cfbcc580
   },
   {
     id: 5,
@@ -85,10 +58,7 @@ export const prompts: Prompt[] = [
     prompt: "Restore and colorize this black and white family photo.",
     link: "https://restorephotos.ai",
     isFree: true,
-<<<<<<< HEAD
     category: "Photo",
-=======
->>>>>>> 38c589af0af4fa65596ee58ee410ba61cfbcc580
   },
   {
     id: 6,
@@ -98,10 +68,7 @@ export const prompts: Prompt[] = [
     prompt: "Write a love song in the style of Ed Sheeran.",
     link: "https://lyricsai.com",
     isFree: false,
-<<<<<<< HEAD
     category: "Music",
-=======
->>>>>>> 38c589af0af4fa65596ee58ee410ba61cfbcc580
   },
   {
     id: 7,
@@ -111,10 +78,7 @@ export const prompts: Prompt[] = [
     prompt: "Convert this video to anime style, smooth frames, vivid colors.",
     link: "https://animevideoai.com",
     isFree: false,
-<<<<<<< HEAD
     category: "Video",
-=======
->>>>>>> 38c589af0af4fa65596ee58ee410ba61cfbcc580
   },
   {
     id: 8,
@@ -124,10 +88,7 @@ export const prompts: Prompt[] = [
     prompt: "Summarize these notes into bullet points for easy revision.",
     link: "https://notebookml.com",
     isFree: true,
-<<<<<<< HEAD
     category: "Productivity",
-=======
->>>>>>> 38c589af0af4fa65596ee58ee410ba61cfbcc580
   },
   {
     id: 9,
@@ -137,10 +98,7 @@ export const prompts: Prompt[] = [
     prompt: "Create a 10-slide PowerPoint on climate change impacts.",
     link: "https://pptgen.ai",
     isFree: true,
-<<<<<<< HEAD
     category: "Productivity",
-=======
->>>>>>> 38c589af0af4fa65596ee58ee410ba61cfbcc580
   },
   {
     id: 10,
@@ -150,9 +108,6 @@ export const prompts: Prompt[] = [
     prompt: "Make my voice sound like a cartoon squirrel.",
     link: "https://voicechanger.ai",
     isFree: false,
-<<<<<<< HEAD
     category: "Music",
-=======
->>>>>>> 38c589af0af4fa65596ee58ee410ba61cfbcc580
   },
 ];
