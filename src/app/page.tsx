@@ -1,5 +1,6 @@
 "use client";
 import Navbar from "../components/Navbar";
+
 import { prompts } from "../utils/promptsData";
 import PromptCard from "../components/PromptCard";
 
