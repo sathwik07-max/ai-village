@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -8,10 +9,10 @@ export default function Navbar() {
         <span className="text-2xl font-bold text-white tracking-wide">AI Village</span>
       </div>
       <div className="space-x-4">
-        <a href="/" className="text-gray-300 hover:text-white transition">Home</a>
-        <a href="/profile" className="text-gray-300 hover:text-white transition">Profile</a>
-        <a href="/admin" className="text-gray-300 hover:text-white transition">Admin</a>
-        <a href="/login" className="text-cyan-400 hover:text-white transition font-semibold">Login</a>
+        <Link href="/" className="text-gray-300 hover:text-white transition">Home</Link>
+        <Link href="/profile" className="text-gray-300 hover:text-white transition">Profile</Link>
+        <Link href="/admin" className="text-gray-300 hover:text-white transition">Admin</Link>
+        <Link href="/login" className="text-cyan-400 hover:text-white transition font-semibold">Login</Link>
       </div>
     </nav>
   );
